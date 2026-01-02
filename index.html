@@ -12,10 +12,13 @@
 
   <div class="container">
 
-    <!-- HEADER -->
     <header>
       <div class="logo">Kimo</div>
-      <nav>
+
+      <!-- Menu button (mobile) -->
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+
+      <nav class="nav-links">
         <a href="#how-it-works">How it works</a>
         <a href="#stores">For Stores</a>
         <a class="button" href="https://forms.gle/44FwHd9Le2wu6GS88" target="_blank">
@@ -82,12 +85,12 @@
           <strong>Send offers</strong><br />
           Customers receive notifications automatically when new offer is available.
         </div>
-       <div class="step">
+        <div class="step">
           <strong>Run data based campaigns</strong><br />
           You can keep track of your customer activity. Which help store to run more engaging offers.
 
         </div>
-        
+
       </div>
     </section>
 
@@ -128,5 +131,15 @@
 
   </div>
 
+  <script>
+  const menuToggle = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('.nav-links');
+
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
+
 </body>
+
 </html>
