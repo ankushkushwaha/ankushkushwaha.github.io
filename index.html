@@ -17,7 +17,9 @@
     <nav>
       <a href="#how-it-works">How it works</a>
       <a href="#stores">For Stores</a>
-      <a href="#contact">Contact</a>
+      <a class="button" href="https://forms.gle/44FwHd9Le2wu6GS88" target="_blank">
+        Contact Us
+      </a>
     </nav>
   </header>
 
@@ -84,39 +86,26 @@
   </section>
 
   <!-- FOR STORES -->
-  <section id="stores">
-    <h2 class="section-title">For Stores</h2>
-    <p class="section-sub">
-      Kimo helps you:  
-      <ul>
-        <li>Send promotions directly to your customers</li>
-        <li>Track engagement and repeat visits</li>
-        <li>Increase loyalty without requiring an app install</li>
-      </ul>
-    </p>
-  </section>
+<!-- FOR STORES -->
+<section id="stores">
+  <h2 class="section-title">For Stores</h2>
+  <p class="section-sub">Kimo helps you:</p>
 
-  <!-- CONTACT (Netlify Form) -->
-  <section id="contact">
-    <h2 class="section-title">Contact us</h2>
-    <p class="section-sub">
-      Have a question or want to try Kimo? Send us a message.
-    </p>
-
-    <form 
-      name="contact" 
-      method="POST" 
-      data-netlify="true" 
-      class="contact-form"
-    >
-      <input type="hidden" name="form-name" value="contact">
-
-      <input type="text" name="name" placeholder="Your name" required />
-      <input type="email" name="email" placeholder="Your email" required />
-      <textarea name="message" placeholder="Your message" rows="4" required></textarea>
-      <button class="button" type="submit">Send message</button>
-    </form>
-  </section>
+  <div class="store-features">
+    <div class="feature">
+      <div class="icon">📣</div>
+      <p>Send promotions directly to your customers</p>
+    </div>
+    <div class="feature">
+      <div class="icon">📊</div>
+      <p>Track engagement and repeat visits</p>
+    </div>
+    <div class="feature">
+      <div class="icon">🤝</div>
+      <p>Increase loyalty without requiring an app install</p>
+    </div>
+  </div>
+</section>
 
   <!-- FOOTER -->
   <footer>
@@ -125,7 +114,7 @@
       <nav class="footer-nav">
         <a href="#how-it-works">How it works</a>
         <a href="#stores">For Stores</a>
-        <a href="#contact">Contact</a>
+        <a href="https://forms.gle/44FwHd9Le2wu6GS88" target="_blank">Contact</a>
         <a href="#">Privacy</a>
         <a href="#">Terms</a>
       </nav>
