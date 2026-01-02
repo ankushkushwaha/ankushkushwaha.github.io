@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Lumio — Connect Stores & Customers</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">Lumio</div>
+    <nav>
+      <a href="#how-it-works">How it works</a>
+      <a href="#stores">For Stores</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>
+        Bring customers back<br/>
+        <span>with Lumio</span>
+      </h1>
+      <p>
+        Lumio helps local stores send offers and promos directly to users — via app or notifications — without complicated apps or loyalty cards.
+      </p>
+      <div class="cta">
+        <a class="button" href="#">Get Early Access</a>
+        <a class="button secondary" href="#how-it-works">See How It Works</a>
+      </div>
+    </div>
+    <div class="glow"></div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section>
+    <h2 class="section-title">Why small stores struggle</h2>
+    <p class="section-sub">
+      Independent stores often lose repeat customers while big chains benefit from apps and notifications.
+    </p>
+    <div class="cards">
+      <div class="card">
+        <h3>No direct channel</h3>
+        <p>Once the customer leaves, the relationship is gone.</p>
+      </div>
+      <div class="card">
+        <h3>Social media doesn’t convert</h3>
+        <p>Algorithms decide who sees your offers.</p>
+      </div>
+      <div class="card">
+        <h3>Apps don’t work</h3>
+        <p>Customers won’t install multiple apps.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how-it-works">
+    <h2 class="section-title">How Lumio works</h2>
+    <p class="section-sub">
+      Designed for stores and users to make repeat visits easy and rewarding.
+    </p>
+    <div class="steps">
+      <div class="step">
+        <strong>Scan once</strong><br/>
+        Customers scan a QR code in your store.
+      </div>
+      <div class="step">
+        <strong>Saved to app</strong><br/>
+        Your store and offers appear in their Lumio app.
+      </div>
+      <div class="step">
+        <strong>Send offers</strong><br/>
+        Customers receive notifications automatically.
+      </div>
+    </div>
+  </section>
+
+  <!-- FOR STORES -->
+  <section id="stores">
+    <h2 class="section-title">For Stores</h2>
+    <p class="section-sub">
+      Lumio helps you:  
+      <ul>
+        <li>Send promotions directly to your customers</li>
+        <li>Track engagement and repeat visits</li>
+        <li>Increase loyalty without requiring an app install</li>
+      </ul>
+    </p>
+  </section>
+
+  <!-- CONTACT (Netlify Form) -->
+  <section id="contact">
+    <h2 class="section-title">Contact us</h2>
+    <p class="section-sub">
+      Have a question or want to try Lumio? Send us a message.
+    </p>
+
+    <form 
+      name="contact" 
+      method="POST" 
+      data-netlify="true" 
+      class="contact-form"
+    >
+      <input type="hidden" name="form-name" value="contact">
+
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" placeholder="Your message" rows="4" required></textarea>
+      <button class="button" type="submit">Send message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2026 Lumio Oy · All rights reserved · Finland 🇫🇮</p>
+      <nav class="footer-nav">
+        <a href="#how-it-works">How it works</a>
+        <a href="#stores">For Stores</a>
+        <a href="#contact">Contact</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </nav>
+    </div>
+  </footer>
+
+</div>
+
+</body>
+</html>
